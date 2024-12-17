@@ -1,0 +1,25 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Vue JS 3</title>
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+</head>
+
+<body>
+    <h1>Azman</h1>
+
+    <div id="app">
+        <p>{{title}} {{num}}</p>
+
+        <button v-on:click="num++">Click Me +</button>
+        <button v-on:click="num--">Click Me -</button>
+        <div @click="title='Bob'"><p>Click</p></div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
